@@ -1,0 +1,70 @@
+html {
+left: 0;
+top: 0;
+width: 100%;
+}
+
+body {
+margin: 0;
+}
+
+header {
+position: static;
+display: flex;
+flex-direction: column;
+left: 0;
+top: 0;
+width: 100%;
+background-color: red;
+color: white;
+height: 250px;
+}
+
+.headline {
+background-color: darkgray;
+text-align: center;
+flex: 4;
+}
+
+.navbar {
+background-color: lightgrey;
+text-align: center;
+flex: 1;
+}
+
+.navbar li {
+display: inline;
+list-style-type: none;
+padding-left: 25px;
+}
+
+.main {
+height: 800px;
+position: static;
+background: antiquewhite;
+}
+
+
+footer {
+position: static;
+left: 0;
+bottom: 0;
+width: 100%;
+height: 250px;
+color: black;
+text-align: center;
+display: flex;
+flex-direction: column;
+}
+
+.footer-top {
+background-color: lightgrey;
+flex: 1;
+}
+
+.footer-bottom {
+background-color: darkgray;
+flex: 4;
+}
+
+
